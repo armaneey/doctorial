@@ -1,0 +1,494 @@
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Roboto" arial;
+}
+h1,h2,h3, h4, h5, b{
+    font-family: "Poppins";
+}
+p{
+    font-family: "Roboto";
+    font-size: 14px;
+}
+button{
+    cursor: pointer;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99999999999999;
+    padding-bottom: 20px;
+}
+.logo b{
+    color: aqua;
+}
+.home{
+    color: aqua;
+}
+.menu-btn {
+    font-size: 24px;
+    display: block;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+.menu-btn:hover{
+        background-color: #fff;
+        transition: 1s;
+        color: #ab8963;
+        border: 2px solid #ab8963;
+}
+header{
+    text-align: center;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid gainsboro;
+}
+img{
+    image-rendering: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+
+}
+nav ul{
+    display: flex;
+    font-family: "Roboto";
+    align-items: center;
+    justify-content: center;
+    color: slate-400;
+    font-size: 14px;
+}
+nav ul li{
+    padding: 0 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #ab8963;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: roboto, arial;
+}
+.hero{
+    background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.452) 11%, rgba(0, 0, 0, 0.651) 74%), url(https://www.eyeluxoptometry.com/wp-content/uploads/AdobeStock_101370381.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero p{
+    font-size: 3rem;
+    color:#fff;
+    text-align: center;
+}
+button{
+    padding: 10 25;
+    border-radius: 2px;
+    border: none;
+    background-color: #6bb0e5;
+}
+.thomas{
+    padding: 50 100;
+    display: flex;
+    justify-content: center;
+    /* gap: 50px; */
+}
+.discrip, .who{
+    width: 50%;
+}
+.discrip{
+    text-align: center;
+}
+.discrip img{
+    width: 70%;
+    height: 50vh;
+    border-radius: 50px 0 50px 0;
+    padding: 5;
+    border: 2px solid #c9c9cf;
+}
+.who span{
+    color: #6bb0e5;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.who h4{
+    margin: -0.1rem 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.steps{
+    background-color: ghostwhite;
+    padding: 30;
+}
+.center{
+    text-align: center;
+    padding-bottom: 30;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.num{
+    padding: 6 10;
+    background-color: #6bb0e5;
+    display: inline-block;
+    border-radius: 100%;
+    color: #fff;
+    margin: 10;
+}
+.step{
+    font-size: 1.5rem;
+}
+.tag{
+    display: flex;
+    align-items: center;
+}
+.tag i{
+    width: 60px;
+}
+.back{
+    display: flex;
+    align-items: center;
+    padding: 15 30;
+    margin: 5 10;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px#f7e0c5, -2px -2px 2px #f7e0c5;
+    width: 65%;
+}
+.program{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+
+}
+.meds img{
+    width: 100%;
+    height: 220px;
+    border-radius: 30px 30px 0 0;
+}
+#center{
+    text-align: center;
+    padding-top: 40;
+}
+.meds ul li{
+    margin-left: -25;
+    font-family: roboto;
+    font-size: 0.8rem;
+}
+.meds{
+    border-bottom: 1px solid #f7e0c594;
+}
+.doctors{
+    text-align: center;
+    padding: 30 0;
+}
+.doctors h3{
+    font-family: roboto;
+}
+.doctors strong{
+    border-bottom: 2px solid #6bb0e5;
+}
+.profs{
+    padding: 20 50;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.image{
+    width: 100%;
+    height: 350px;
+    background-color: #6bb0e5;
+    border-radius: 10px;
+}
+.do{
+    font-weight: 500;
+}
+.image img{
+    width: 100%;
+    height: 350px;
+}
+.prof span{
+    font-weight: 800;
+}
+.first,.second{
+    padding: 1 10;
+    margin-left: 10;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    background-color: #6bb0e5; 
+    cursor:pointer;
+}
+.second{
+    background-color: #9ad3ff
+}
+.helpcenter{
+    display: flex;
+    padding: 50;
+    align-items: center;
+    justify-content: space-between;
+}
+.inline{
+    width: 50%;
+}
+.here{
+    width: 30%;
+}
+.here h4{
+    font-family: roboto;
+    font-size: 1.7rem;
+}
+.text{
+    width: 100%;
+    padding: 10px;
+    padding-left: 30;
+    margin-bottom: 5px;
+}
+.form .fa-solid{
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+}
+.texts{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
+.black{
+    width: 100%;
+    background-color: #000;
+    color:#fff
+}
+.footer{
+    padding: 30;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #e3f0fa;
+}
+.copy{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px){
+    .menu-btn{
+        display: block;
+    }
+    .side-menu {
+        position: fixed;
+        left:0;
+        top: 0;
+        top: -150%; /* Start off-screen */
+        width: 250px;
+        height: 70%;
+        background-color: #fff;
+        box-shadow: 2px 2px 2px #6bb0e5, -1px -1px 1px #6bb0e5;
+        transition: top 0.6s ease;
+        padding-bottom: 120px;
+        /* align-items: center; */
+    }
+    
+    .side-menu ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .side-menu ul li {
+        padding: 15px;
+        border-bottom: 1px solid #777;
+    
+    }
+    
+    .side-menu ul li a {
+        color: #000;
+        text-decoration: none;
+    }
+    .side-menu.active {
+        left: 0;
+        top: 52px;
+    }
+    nav{
+        
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    
+    }
+    nav ul{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    nav ul li{
+        font-size: 12px;
+    }
+    .hero{
+        
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero p{
+        font-size: 1.2rem;
+        color:#fff;
+        text-align: center;
+    }
+    button{
+        padding: 10 25;
+        border-radius: 2px;
+        border: none;
+        background-color: #6bb0e5;
+    }
+    .thomas{
+        padding: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .discrip, .who{
+        width: 100%;
+    }
+    .discrip{
+        text-align: center;
+    }
+    .discrip img{
+        width: 70%;
+        height: 50vh;
+        border-radius: 50px 0 50px 0;
+        padding: 5;
+        border: 2px solid #c9c9cf;
+    }
+    .who h4{
+        font-size: 1.5rem;
+    }
+    .center{
+        text-align: center;
+        padding-bottom: 30;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+    }
+    
+    .tag i{
+        width: 60px;
+    }
+    .program{
+        grid-template-columns: 1fr;
+    }
+    #center{
+        text-align: center;
+        padding-top: 40;
+    }
+    .doctors h3{
+        font-family: roboto;
+    }
+    .profs{
+        padding: 20 50;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .do{
+        font-weight: 500;
+    }
+    .image img{
+        width: 100%;
+        height: 350px;
+    }
+    .prof span{
+        font-weight: 800;
+    }
+    .first,.second{
+        padding: 1 10;
+        margin-left: 10;
+        margin-bottom: 30px;
+        border-radius: 100%;
+        background-color: #6bb0e5; 
+        cursor:pointer;
+    }
+    .second{
+        background-color: #9ad3ff
+    }
+    .helpcenter{
+        display: flex;
+        flex-direction: column;
+        padding: 20;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inline, .here{
+        width: 100%;
+    }
+    
+    .here h4{
+        font-family: roboto;
+        font-size: 1.7rem;
+    }
+    .text{
+        width: 100%;
+        padding: 10px;
+        padding-left: 30;
+        margin-bottom: 5px;
+    }
+    .form .fa-solid{
+        position: absolute;
+        padding: 10px;
+        min-width: 40px;
+    }
+    .texts{
+        width: 100%;
+        height: 100px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .black{
+        width: 100%;
+        background-color: #000;
+        color:#fff
+    }
+    .footer{
+        padding: 30;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+        gap: 20px;
+        background-color: #e3f0fa;
+    }
+    .copy{
+        text-align: center;
+    }
+    
+
+}
